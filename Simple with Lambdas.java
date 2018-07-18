@@ -25,8 +25,8 @@ public class FavoritesRepository {
     // here you can see lambda expressions and AICs used side-by-side
     // lambda expressions can only be used for functional interfaces, interfaces with only one method
     // in this case, the Runnable interface
-    // the FavoriteTransactionTask abstract class (which implements Runnable) has multiple abstract methods so
-    // it is instantiated as an anonmyous inner class
+    // the FavoriteTransactionTask abstract class (which implements Runnable) has multiple abstract methods
+    // so it is instantiated as an anonymous inner class
 
     public void addFavorite(MenuItem item) {
         Favorite favorite = new Favorite(item.getName(), UUID.randomUUID().toString(), item.getId(), item.isVegetarian());
