@@ -1,5 +1,5 @@
-//excerpt
-//long and complex, but advantage is that it gets access to members of enclosing class
+// excerpt
+// long and complex, but the advantage is that it gets access to members of enclosing class
 ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN, ItemTouchHelper.LEFT) {
 
             protected boolean isElevated = false;
