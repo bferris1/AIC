@@ -16,10 +16,7 @@ myView.setOnClickListener(new View.OnClickListener() {
 
 (Lambda expressions can be used now that Android supports Java 8.)
 ```java
-myView.setOnClickListener(() -> {
-  //do something
-});
-
+mEmailSignInButton.setOnClickListener(view -> attemptLogin());
 ```
 
 Some differences from normal classes:
