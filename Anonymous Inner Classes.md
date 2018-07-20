@@ -23,5 +23,7 @@ Some differences from normal classes:
 * A normal class can implement any number of interfaces but an anonymous inner class can implement only one interface at a time.
 * A regular class can extend a class and implement any number of interface simultaneously, but anonymous inner classes can extend a class or can implement an interface but not both.
 
-An anonymous class has access to the members of its enclosing class.
-An anonymous class cannot access local variables in its enclosing scope that are not declared as final or effectively final.
+Other things to note:
+- An anonymous class has access to the members of its enclosing class.
+    - This makes them very useful compared to defining a seperate class
+- An anonymous class cannot access local variables in its enclosing scope that are not declared as final or effectively final.
