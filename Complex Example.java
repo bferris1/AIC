@@ -1,6 +1,9 @@
 // excerpt
 // long and complex, maybe better suited to a separate class,
 // but the advantage here is that it gets access to members of the enclosing class
+// like the categoryRepository, recyclerViewAdapter, etc.
+// They are quick and easy to write, but can bulk up the containing class too much.
+
 ItemTouchHelper itemTouchHelper = new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN, ItemTouchHelper.LEFT) {
 
             protected boolean isElevated = false;
